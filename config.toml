@@ -1,0 +1,44 @@
+baseURL = "https://blog.tunggu.in"
+languageCode = "en-us"
+title = "Runevy Wagner"
+theme="archie"
+copyright = "© Runevy"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pagerSize = 3
+
+[pagination]
+  disableAliases = false
+  pagerSize = 3
+  path = 'page'
+
+[params]
+	mode="auto"
+	useCDN=false
+	subtitle = "Just a blog to write my personal matters."
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/athul/archie"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4

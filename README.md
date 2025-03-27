@@ -1,7 +1,2 @@
-# myblog
-# myblog
-# myblog
-# myblog
-# myblog
-# myblog
-# myblog
+# Hi
+This is my personal blog using modified (later) template
